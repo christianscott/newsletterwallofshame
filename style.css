@@ -1,0 +1,18 @@
+body {
+  font-size: 18px;
+}
+
+.highlight-section:before {
+  content: '';
+  position: absolute;
+  width: 102%;
+  height: 104%;
+  z-index: -1;
+  left: -1%;
+  top: -6%;
+  transform: skew(-3deg, 0deg);
+}
+
+.highlight-section--blue:before {
+  background-color: #c3e0e566;
+}
